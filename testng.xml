@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="TestNG">
+        <classes>
+            <class name="test.Basics">
+                <methods>
+                    <include name="basicTest"/>
+                    <include name="testing"/>
+                </methods>
+
+            </class>
+            <class name="test.Basics1">
+                <methods>
+                    <include name="testing2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
